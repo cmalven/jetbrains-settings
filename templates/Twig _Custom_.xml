@@ -1,0 +1,21 @@
+<templateSet group="Twig (Custom)">
+  <template name="d" value="{{ d($VAR$) }}" description="Dump" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="{{ dd($VAR$) }}" description="Dump &amp; Die" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="assetrand" value="craft.assets.folderId($FOLDER_ID$).filename('*.$EXTENSION$').orderBy('RAND()').one()" description="Random Craft Asset" toReformat="false" toShortenFQNames="true">
+    <variable name="FOLDER_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXTENSION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>

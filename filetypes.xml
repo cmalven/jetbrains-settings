@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <removed_mapping ext="html" approved="true" type="HTML" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="html" type="Twig" />
+      <removed_mapping ext="html" approved="true" type="HTML" />
+    </extensionMap>
+  </component>
+</application>

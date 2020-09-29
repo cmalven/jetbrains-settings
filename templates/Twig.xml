@@ -1,0 +1,9 @@
+<templateSet group="Twig">
+  <template name="set" value="{% set $NAME$ = $VAL$ %}&#10;" description="Set twig variable" toReformat="true" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="foo" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="''" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,330 @@
+<templateSet group="SublimeSnippets">
+  <template name="entries" value="{% set $VAR1$ = craft.entries$VAR2$.section('$VAR3$') %}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;variableName&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;(\{ foo: 'bar', id: 'not ' ~ featuredEvent.id \})&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;sectionName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="cycontext" value="context$VAR1$('$VAR2$', () =&gt; {&#10;  beforeEach(() =&gt; {&#10;    cy.visit(baseUrl);&#10;  });&#10;&#10;  it('$VAR3$', () =&gt; {&#10;    $VAR4$&#10;  });&#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;.only&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;Context Title&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;Does something important&quot;" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="&quot;// Tests go here...&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cytest" value="it('$VAR1$', () =&gt; {&#10;  $VAR2$&#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Does something important&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;// Tests go here...&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cycommand" value="Cypress.Commands.add('$VAR1$', (options = {}) =&gt; {&#10;  const {&#10;    $VAR2$&#10;  } = options;&#10;&#10;  $VAR3$&#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;commandname&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;// Default options here&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;// Actions go here...&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ec" value="{!-- $VAR1$ --}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Contents&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="c4" value="//&#10;// $VAR1$&#10;//" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="gridresp" value="display: grid;&#10;grid-template-columns: repeat(auto-fit, minmax($VAR1$, 1fr));&#10;grid-gap: $VAR2$;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;300px&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;30px&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="stylelintignore" value="/* stylelint-disable-next-line$VAR1$ */" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot; declaration-no-important&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="grad" value="linear-gradient(to bottom, rgba($VAR1$, $VAR2$), rgba($VAR1$, $VAR3$))" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;#fff&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="scon" value="&lt;script&gt;&#10;console.log('$VAR1$');&#10;&lt;/script&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;this&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="targetblank" value="target=&quot;_blank&quot;&#10;rel=&quot;noopener noreferrer&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="con" value="console.log '$VAR1$'$VAR2$$VAR3$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;this&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;, &quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="root" value="root = exports ? this" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="switch" value="switch $VAR1$&#10;  when &quot;Mon&quot; then go work&#10;  when &quot;Tue&quot; then go relax&#10;  when &quot;Thu&quot; then go iceFishing&#10;  when &quot;Fri&quot;, &quot;Sat&quot;&#10;    if day is bingoDay&#10;      go bingo&#10;      go dancing&#10;  when &quot;Sun&quot; then go church&#10;  else go work" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="# --------------------------------------------&#10;# $VAR1$&#10;# --------------------------------------------" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Heading&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="quickbrownfox" value="The quick brown fox jumped over the lazy dog" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for (var $VAR1$ = 0, length = $VAR2$; $VAR1$ &lt; length; $VAR1$++) {&#10;  $VAR3$&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;idx&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;things.length&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="enzymejesttest" value="$VAR5$import React from 'react';&#10;import { shallow } from 'enzyme';&#10;import toJson from 'enzyme-to-json';&#10;&#10;import $VAR1$ from 'components/$VAR2$/$VAR1$';&#10;&#10;describe('$VAR1$', () =&gt; {&#10;&#10;  test('$VAR3$', () =&gt; {&#10;    const wrapper = shallow(&#10;      &lt;$VAR1$ /&gt;&#10;    );&#10;    $VAR4$&#10;    expect(toJson(wrapper)).toMatchSnapshot();&#10;  });&#10;&#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;ComponentName&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;dir&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;Renders appropriate classes and text&quot;" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="&quot;expect(wrapper.text()).toEqual('Foo');&quot;" alwaysStopAt="true" />
+    <variable name="VAR5" expression="" defaultValue="&quot;/*&#10;To decide how to test your component, ask the following questions:&#10;&#10;- What does my component render?&#10;- Does my component render different things under different circumstances?&#10;- When I pass a function as a prop, what does my component use it for?Does it call it, or just give it to another component? If it calls it, what does it call it with?&#10;- When the user interacts with my component, what happens?&#10;*/&#10;&#10;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impr" value="import $VAR2$ from '$VAR3$$VAR4$/$VAR2$';" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR2" expression="" defaultValue="&quot;Foo&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;components/&quot;" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="&quot;dir&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="animboiler" value="var AnimPanel = require('anim-panel');&#10;require('TweenLite');&#10;require('TimelineLite');&#10;var addWaypointController = require('../add_waypoint_controller');&#10;&#10;module.exports = function(options) {&#10;  //&#10;  //   Private Vars&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10; &#10;  var self = {&#10;    l: '.foo'),&#10;    tl: null&#10;  };&#10; &#10; &#10;  //&#10;  //   Public Vars&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10; &#10;  self.settings = extend({&#10;&#10;  }, options);&#10; &#10; &#10;  //&#10;  //   Private Methods&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10; &#10;  var _init = function() {&#10;    _assign();&#10;    _createTimeline();&#10;    _addEventListeners();&#10;  };&#10;&#10;  var _assign = function() {&#10;    &#10;  };&#10;&#10;  var _createTimeline = function() {&#10;    self.tl = new TimelineLite()&#10;  };&#10; &#10;  var _addEventListeners = function() {&#10;    addWaypointController({&#10;      l: self.l,&#10;      inHandler: function(direction) {&#10;        console.log('in');&#10;      },&#10;      outHandler: function(direction) {&#10;        console.log('out');&#10;      }&#10;    });&#10;  };&#10; &#10; &#10;  //&#10;  //   Initialize&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10; &#10;  _init();&#10; &#10;  // Return the Object&#10;  return self;&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="c3" value="/*&#10;$VAR1$&#10;*/" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Comment&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="reactcomp" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;class $VAR1$ extends React.Component {&#10;  state = {&#10;  &#10;  }&#10;&#10;  render() {&#10;    return (&#10;      $VAR2$&#10;    );&#10;  }&#10;}&#10;&#10;$VAR1$.propTypes = {&#10;  &#10;};&#10;&#10;export default $VAR1$;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;ComponentName&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;&lt;p&gt;Hello&lt;/p&gt;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="reactpfcomp" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;const $VAR1$ = ({ $VAR3$ }) =&gt; {&#10;  return (&#10;    $VAR2$&#10;  );&#10;};&#10;&#10;$VAR1$.propTypes = {&#10;  &#10;};&#10;&#10;export default $VAR1$;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;&lt;p&gt;Hello&lt;/p&gt;&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;...props&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mobximportutil" value="import { toJS, trace } from 'mobx';" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cn" value="console.log('$VAR1$'$VAR2$$VAR3$);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;this&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;, &quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="propClasses" value="import { classesFromProps, withPropClassValidation } from 'lib/propClasses';&#10;&#10;const propClasses = [&#10;  [&#10;    'foo'&#10;  ]&#10;];&#10;&#10;className={classesFromProps(otherProps, '$VAR1$', propClasses)}&#10;&#10;$VAR1$.propTypes = withPropClassValidation({&#10;&#10;}, propClasses);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;ComponentName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="resize" value="window.addEventListener('resize', $VAR1$, true);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;_onResize&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="queryloop" value="const $VAR1$ = document.querySelectorAll('$VAR2$');&#10;$VAR1$.forEach(el =&gt; {&#10;  $VAR3$&#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;els&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;.js-my-el&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="c2" value="//--------------------------------------------------------------------&#10;// $VAR1$&#10;//--------------------------------------------------------------------" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="eslintdisable" value="// eslint-disable-next-line" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jesttest" value="test('$VAR1$', () =&gt; {&#10;  expect($VAR2$).toBe($VAR3$);&#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;test description&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="classesnext" value="/**&#10; * $VAR2$&#10; *&#10; * @param    {Object}  options      Options for class$VAR3$&#10; */&#10;class $VAR1$ {&#10;  constructor(options = {}) {&#10;    // Default Settings&#10;    Object.assign(this, {&#10;      foo: 'bar'&#10;    }, options);&#10;&#10;    // Initialize&#10;    this.init();&#10;  }&#10;&#10;  init() {&#10;    this._addEventListeners();&#10;  }&#10;&#10;  _addEventListeners() {&#10;&#10;  }&#10;}&#10;&#10;export default $VAR1$;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;ObjectName&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;Description of item here&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&#10; * @param    \{&lt;type&gt;\}  options.foo  An individual option&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jestdesc" value="describe('$VAR1$', () =&gt; {&#10;  $VAR2$&#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Suite Description&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="addeventlistener" value="addEventListener('$VAR1$', $VAR2$ =&gt; {&#10;  $VAR3$&#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;click&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;evt&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="printdie" value="print_r(esult);&#10;        die();" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="class" value="/**&#10; * $VAR2$&#10; *&#10; * @class    $VAR1$&#10; * @param    {Object}  options  Options for the object&#10; * @return   {Object}  The object&#10; */&#10;const $VAR1$ = function(options) {&#10;  //&#10;  //   Public Vars&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  let self = Object.assign({}, {&#10;    el: null,&#10;  }, options);&#10;&#10;&#10;  //&#10;  //   Private Vars&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  let foo = null;&#10;&#10;&#10;  //&#10;  //   Private Methods&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  const _init = () =&gt; {&#10;    _addEventListeners();&#10;  };&#10;&#10;  const _addEventListeners = () =&gt; {&#10;&#10;  };&#10;&#10;&#10;  //&#10;  //   Public Methods&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  /*&#10;  self.foo = () =&gt; {&#10;&#10;  };&#10;  */&#10;&#10;&#10;  //&#10;  //   Initialize&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  _init();&#10;&#10;  // Return the Object&#10;  return self;&#10;};&#10;&#10;export default $VAR1$;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;ObjectName&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;Description of item here&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="duxdispatch" value="APP.store.dispatch({&#10;  type: $VAR1$,&#10;  $VAR2$: $VAR3$&#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;SET_STUFF&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impmod" value="import $VAR1$ from './$VAR2$$VAR1$';" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;modules/&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="storybooksection" value="{&#10;  title: '$VAR1$',&#10;  subtitle: '$VAR2$',&#10;  sections: [&#10;    {&#10;      title: '$VAR1$: Default',&#10;      sectionFn: () =&gt; {&#10;        return (&#10;          &lt;$VAR1$ /&gt;&#10;        );&#10;      }&#10;    }&#10;  ]&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;MyComponent&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;A brief description of the component&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rc" value="{/* $VAR1$ */}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="callback" value="($VAR1$) =&gt; {&#10;  $VAR2$&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="c1" value="//&#10;//   $VAR1$&#10;//&#10;//////////////////////////////////////////////////////////////////////" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tce" value="{#&#10;&#10;  {% embed '_embeds/$VAR3$'$VAR4$ %}&#10;    {% block main %}&#10;      …&#10;    {% endblock %}&#10;  {% endembed %}&#10; &#10;  ---------------------------------------------------------&#10;  $VAR1$&#10;  ---------------------------------------------------------&#10;#}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="&quot; with {&#10;    &#10;  \} only&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="tc" value="{# $VAR1$ #}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Your comment here...&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="tmacfunc" value="{# ------------------------------------------------------------------ #}&#10;{# $VAR1$&#10;{# ------------------------------------------------------------------ #}&#10;{#&#10;  {{ .$VAR2$($VAR4$) }}&#10;&#10;  $VAR3$$VAR5$&#10;#}&#10;&#10;{% macro $VAR2$($VAR4$) %}&#10;  $VAR8$}&#10;{% endmacro %}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;Macro Name&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;Explain what the macro does&quot;" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="&quot;bar&quot;" alwaysStopAt="true" />
+    <variable name="VAR5" expression="" defaultValue="&quot;&#10;&#10;  @param  ()        - &quot;" alwaysStopAt="true" />
+    <variable name="VAR8" expression="" defaultValue="&quot;{% return 'my return value' %&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="tmac" value="{# =============================================================== #}&#10;{# $VAR1$&#10;{# =============================================================== #}&#10;{#&#10;  {% import '_macros/$VAR3$' as $VAR3$ %}&#10;#}&#10;&#10;$VAR4$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="&quot;{# ------------------------------------------------------------------ #\}&#10;{# Macro Name&#10;{# ------------------------------------------------------------------ #\}&#10;{#&#10;  {{ .foo(bar) \}\}&#10;&#10;  Explain what the macro does&#10;&#10;  @param bar (String)        - [required] Explain what the param represents&#10;#\}&#10;&#10;{% macro foo(bar) %\}&#10;  {% return 'my return value' %\}&#10;{% endmacro %\}&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="tci" value="{# =============================================================== #}&#10;{# $VAR1$&#10;{# =============================================================== #}&#10;{#&#10;  {% include '_partials/$VAR3$'$VAR4$ %}&#10;#}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR4" expression="" defaultValue="&quot; with {&#10;    &#10;  \} only&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
