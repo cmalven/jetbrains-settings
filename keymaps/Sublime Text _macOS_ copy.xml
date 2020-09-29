@@ -16,6 +16,12 @@
   <action id="FixDocComment">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
+  <action id="HelloProjectAction">
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="HelloWorldAction">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="space" />
   </action>
