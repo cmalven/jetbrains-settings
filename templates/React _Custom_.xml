@@ -1,0 +1,9 @@
+<templateSet group="React (Custom)">
+  <template name="omegacomp" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;import { color } from 'utils/styles/color';&#10;import { addModifiers } from 'utils/styles/modifiers';&#10;&#10;const $NAME$ = ({ modifiers = [], ...props }) =&gt; {&#10;  const combinedStyles = addModifiers(baseStyles, modifiers, modifierStyles);&#10;&#10;  return (&#10;    &lt;$NAME$ /&gt;&#10;  );&#10;};&#10;&#10;const baseStyles = {&#10;&#10;};&#10;&#10;const modifierStyles = {&#10;&#10;};&#10;&#10;$NAME$.propTypes = {&#10;&#10;};&#10;&#10;export default $NAME$;" description="Omega Yeast React JSX Component" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
