@@ -2,6 +2,9 @@
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="meta alt open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
@@ -12,9 +15,6 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta alt close_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
-  </action>
-  <action id="FixDocComment">
-    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift ctrl alt a" />
