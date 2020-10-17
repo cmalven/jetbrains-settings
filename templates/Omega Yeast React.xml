@@ -6,7 +6,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="omegastyleimp" value="import * as Type from 'utils/styles/type';&#10;import * as Size from 'utils/styles/size';&#10;import * as Color from 'utils/styles/color';&#10;" description="Omega Yeast Style Imports" toReformat="false" toShortenFQNames="true">
+  <template name="omegastyleimp" value="import { Type, Size, Color, Border, Shadow, Modifiers } from 'utils/styles/all';&#10;" description="Omega Yeast Style Imports" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
