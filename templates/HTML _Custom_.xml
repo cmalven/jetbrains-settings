@@ -1,0 +1,8 @@
+<templateSet group="HTML (Custom)">
+  <template name="targetblank" value="target=&quot;_blank&quot;&#10;rel=&quot;noopener noreferrer&quot;" description="Target _blank for links" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
