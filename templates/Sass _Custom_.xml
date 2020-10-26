@@ -35,4 +35,9 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="anim" value="animation-name: none;&#10;animation-duration: 0s;&#10;animation-timing-function: ease;&#10;animation-delay: 0s;&#10;animation-iteration-count: infinite;" description="CSS animation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
