@@ -40,4 +40,11 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="gridresp" value="display: grid;&#10;grid-template-columns: repeat(auto-fit, minmax($MINMAX$, 1fr));&#10;grid-gap: $GRIDGAP$;&#10;" description="Responsive CSS Grid" toReformat="false" toShortenFQNames="true">
+    <variable name="MINMAX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GRIDGAP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
