@@ -47,4 +47,10 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="ts" value="@include type-style($STYLE$);" description="Sass Toolkit Type Style Mixin" toReformat="false" toShortenFQNames="true">
+    <variable name="STYLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
