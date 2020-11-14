@@ -93,4 +93,9 @@
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="h1" value="&lt;h1&gt;$END$&lt;/h1&gt;" description="&lt;h1&gt;...&lt;/h1&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
