@@ -111,4 +111,8 @@
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="li" value="&lt;li&gt;$END$&lt;/li&gt;" description="&lt;li&gt;...&lt;/li&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
