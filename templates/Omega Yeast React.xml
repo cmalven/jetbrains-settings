@@ -12,7 +12,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="omegaview" value="import React from 'react';&#10;import Helmet from 'react-helmet';&#10;&#10;/**&#10; * View - $END$&#10; */&#10;const $NAME$ = () =&gt; {&#10;  return (&#10;    &lt;&gt;&#10;      &lt;Helmet&gt;&#10;        &lt;title&gt;$NAME$ / Omega Yeast&lt;/title&gt;&#10;      &lt;/Helmet&gt;&#10;    &lt;/&gt;&#10;  );&#10;};&#10;&#10;export default $NAME$;&#10;&#10;" description="Omega Yeast React View Component" toReformat="false" toShortenFQNames="true">
+  <template name="omegaview" value="import React from 'react';&#10;import Helmet from 'react-helmet';&#10;import { LayoutContainer, LayoutContainerSection } from 'components/LayoutContainer';&#10;&#10;/**&#10; * View - $END$&#10; */&#10;const $NAME$ = () =&gt; {&#10;  return (&#10;    &lt;LayoutContainer&gt;&#10;      &lt;Helmet&gt;&#10;        &lt;title&gt;$NAME$ / Omega Yeast&lt;/title&gt;&#10;      &lt;/Helmet&gt;&#10;    &lt;/LayoutContainer&gt;&#10;  );&#10;};&#10;&#10;export default $NAME$;&#10;&#10;" description="Omega Yeast React View Component" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
