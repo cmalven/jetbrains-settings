@@ -6,4 +6,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="class" value="/**&#10; * $END$&#10; *&#10; * @class    $NAME$&#10; * @param    {Object}  options  Options for the object&#10; * @return   {Object}  The object&#10; */&#10;const $NAME$ = function(options = {}):void {&#10;  //&#10;  //   Public Vars&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  let self = Object.assign({}, {&#10;    el: null,&#10;  }, options);&#10;&#10;&#10;  //&#10;  //   Private Vars&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  let foo = null;&#10;&#10;&#10;  //&#10;  //   Private Methods&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  const _init = () =&gt; {&#10;    _addEventListeners();&#10;  };&#10;&#10;  const _addEventListeners = () =&gt; {&#10;&#10;  };&#10;&#10;&#10;  //&#10;  //   Public Methods&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  /*&#10;  self.foo = () =&gt; {&#10;&#10;  };&#10;  */&#10;&#10;&#10;  //&#10;  //   Initialize&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  _init();&#10;&#10;  // Return the Object&#10;  return self;&#10;};&#10;&#10;export default $NAME$;&#10;" description="Javascript class (not ES next)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
