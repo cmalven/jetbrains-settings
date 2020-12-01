@@ -1,15 +1,15 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="*.html.eex" type="EEx" />
-      <removed_mapping ext="html" approved="true" type="HTML" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern=".pretterignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="html" type="Twig" />
       <mapping ext="njk" type="Twig" />
+      <removed_mapping ext="html" approved="true" type="HTML" />
       <removed_mapping pattern="*.html.eex" approved="true" type="HTML" />
       <removed_mapping pattern=".njk" approved="true" type="Twig" />
-      <removed_mapping ext="html" approved="true" type="HTML" />
     </extensionMap>
   </component>
 </application>
