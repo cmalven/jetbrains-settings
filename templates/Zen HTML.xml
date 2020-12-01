@@ -129,6 +129,13 @@
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
   <template name="option" value="&lt;option value=&quot;$VAR0$&quot;&gt;$END$&lt;/option&gt;" description="&lt;option value=&quot;...&quot;&gt;...&lt;/option&gt;" toReformat="true" toShortenFQNames="true">
@@ -183,6 +190,7 @@
     <context />
   </template>
   <template name="p" value="&lt;p&gt;$END$&lt;/p&gt;" description="&lt;p&gt;...&lt;/p&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
