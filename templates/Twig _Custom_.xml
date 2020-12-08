@@ -18,4 +18,24 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="inc" value="{% include '_partials/$NAME$' with {&#10;  $END$&#10;} only %}&#10;" description="Twig include" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="tc" value="{# $COMMENT$ #}&#10;" description="Twig comment" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="tci" value="{# =============================================================== #}&#10;{# $TITLE$&#10;{# =============================================================== #}&#10;{#&#10;  {% include '_partials/$FILENAME$' $PROPERTIES$%}&#10;#}&#10;&#10;$END$" description="Twig {% include %} doc comment" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="capitalize(spaceSeparated(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PROPERTIES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
