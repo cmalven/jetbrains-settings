@@ -38,7 +38,8 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="withinc" value="with {&#10;  $END$&#10;} " description="with properties for a Twig include" toReformat="false" toShortenFQNames="true">
+  <template name="incwith" value="{% include '_partials/$NAME$' with {&#10;  $END$&#10;} %}&#10;" description="Twig include with variables" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="name" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>

@@ -12,4 +12,8 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="inc" value="{% include '$TEMPLATE$'$END$ %}" description="include 'template'" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
