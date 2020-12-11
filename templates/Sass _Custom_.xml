@@ -59,4 +59,11 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="modclass" value=".$NAME$--$MODIFIER$ {&#10;  $END$&#10;}" description="SCSS modifier class" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODIFIER" expression="" defaultValue="foo" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
