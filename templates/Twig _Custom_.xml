@@ -44,4 +44,18 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="macimage" value="{% import '_macros/image' as image %}&#10;{{ image.img($ASSET$, {&#10;  transform: '$TRANSFORM$',&#10;  alt: '$ALT$',&#10;  wrapperClasses: '',&#10;}) }}&#10;" description="Twig Image Macro" toReformat="false" toShortenFQNames="true">
+    <variable name="ASSET" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TRANSFORM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ALT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="svgm" value="{% import '_macros/svg' as svg %}&#10;{{ svg.use('$ID$') }}&#10;" description="Twig SVG macro" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
