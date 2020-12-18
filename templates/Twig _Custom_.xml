@@ -58,4 +58,10 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="classes" value="{{ classes ?? '' }}" description="Twig dynamic classes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
