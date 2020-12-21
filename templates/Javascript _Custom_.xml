@@ -18,4 +18,16 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="c1" value="//&#10;//   $TEXT$&#10;//&#10;//////////////////////////////////////////////////////////////////////$END$" description="Javascript Comment (Level 1)" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="c2" value="//&#10;// $TEXT$&#10;//$END$" description="Javascript Comment (Level 2)" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
