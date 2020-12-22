@@ -1867,6 +1867,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key=".htaccess">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.apacheConfig" />
+              <option name="myPluginName" value="Apache config (.htaccess)" />
+            </plugin>
+          </value>
+        </entry>
         <entry key=".jshintignore">
           <value>
             <plugin>
