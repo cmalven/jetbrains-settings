@@ -41,6 +41,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
   </action>
   <action id="Rerun" />
+  <action id="RunAnything">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="RunTargetAction" />
   <action id="UsageGrouping.UsageType" />
   <action id="VimPluginToggle">
