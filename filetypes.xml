@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="*.glsl.js" type="GLSL shader file" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern=".pretterignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
@@ -11,7 +12,6 @@
       <removed_mapping pattern="*.html.eex" approved="true" type="HTML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping pattern=".njk" approved="true" type="Twig" />
-      <mapping pattern="*.glsl.js" type="GLSL shader file" />
       <mapping pattern="*.html.eex" type="EEx" />
     </extensionMap>
   </component>
