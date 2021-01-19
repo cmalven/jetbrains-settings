@@ -1,6 +1,6 @@
 <templateSet group="Javascript (Custom)">
   <template name="func" value="const $NAME$ = ($PARAMS$) =&gt; {&#10;    $END$&#10;};" description="Arrow Function" toReformat="true" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="&quot;myFunction&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />

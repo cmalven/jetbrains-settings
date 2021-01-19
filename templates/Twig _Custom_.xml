@@ -12,8 +12,8 @@
     </context>
   </template>
   <template name="assetrand" value="craft.assets.folderId($FOLDER_ID$).filename('*.$EXTENSION$').orderBy('RAND()').one()" description="Random Craft Asset" toReformat="false" toShortenFQNames="true">
-    <variable name="FOLDER_ID" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="EXTENSION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOLDER_ID" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXTENSION" expression="&quot;.jpg&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
@@ -39,21 +39,21 @@
     </context>
   </template>
   <template name="incwith" value="{% include '_partials/$NAME$' with {&#10;  $END$&#10;} %}&#10;" description="Twig include with variables" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="name" alwaysStopAt="true" />
+    <variable name="NAME" expression="&quot;my-include&quot;" defaultValue="name" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="macimage" value="{% import '_macros/image' as image %}&#10;{{ image.img($ASSET$, {&#10;  transform: '$TRANSFORM$',&#10;  alt: '$ALT$',&#10;  wrapperClasses: '',&#10;}) }}&#10;" description="Twig Image Macro" toReformat="false" toShortenFQNames="true">
-    <variable name="ASSET" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TRANSFORM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ASSET" expression="&quot;asset&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="TRANSFORM" expression="&quot;scale&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="ALT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
   </template>
   <template name="svgm" value="{% import '_macros/svg' as svg %}&#10;{{ svg.use('$ID$') }}&#10;" description="Twig SVG macro" toReformat="false" toShortenFQNames="true">
-    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="&quot;my-file&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
     </context>
