@@ -2,6 +2,7 @@
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
+  <action id="ChangesView.Move" />
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
@@ -25,6 +26,9 @@
   <action id="HelloWorldAction">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
+  <action id="Macro.Create GUI Setting">
+    <keyboard-shortcut first-keystroke="shift meta m" second-keystroke="g" />
+  </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="space" />
   </action>
@@ -46,6 +50,7 @@
   </action>
   <action id="RunTargetAction" />
   <action id="UsageGrouping.UsageType" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="VimPluginToggle">
     <keyboard-shortcut first-keystroke="shift ctrl alt v" />
   </action>
