@@ -19,5 +19,17 @@
       <typing text-keycode="70:1;513:1;88:0;88:0;65:1;59:0">F:xxA;</typing>
       <shortuct text="ESCAPE" />
     </macro>
+    <macro name="BEM selectors to declarations">
+      <action id="EditorAddCaretPerSelectedLine" />
+      <typing text-keycode="73:1;46:0">I.</typing>
+      <shortuct text="ESCAPE" />
+      <typing text-keycode="65:1;32:0;91:1">A&amp;#x20;{</typing>
+      <shortuct text="ENTER" />
+      <shortuct text="ESCAPE" />
+      <typing text-keycode="74:0;79:0">jo</typing>
+      <shortuct text="ESCAPE" />
+      <shortuct text="ESCAPE" />
+      <typing text-keycode="75:0;75:0;65:1">kkA</typing>
+    </macro>
   </component>
 </application>
