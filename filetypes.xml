@@ -8,6 +8,7 @@
       <mapping pattern=".pretterignore" type="PLAIN_TEXT" />
       <mapping pattern=".docfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="pull" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
       <mapping ext="html" type="Twig" />
       <mapping ext="njk" type="Twig" />
