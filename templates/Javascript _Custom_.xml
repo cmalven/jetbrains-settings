@@ -30,4 +30,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="dynamicimp" value="import(/* webpackChunkName: &quot;$MODULE_NAME$&quot; */ '$MODULE_NAME$').then(({ default: $DEFAULT$ }) =&gt; {&#10;}).catch(error =&gt; 'An error occurred while loading the $MODULE_NAME$ module');" description="Dynamic module import" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE_NAME" expression="&quot;three&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="&quot;THREE&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
