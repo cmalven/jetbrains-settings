@@ -64,4 +64,11 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="c1" value="{# ================================================================== #}&#10;{# $PREFIX_TEXT$$TEXT$&#10;{# ================================================================== #}&#10;&#10;$END$" description="Twig Comment: Level 1" toReformat="false" toShortenFQNames="true">
+    <variable name="PREFIX_TEXT" expression="&quot;Block - &quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="capitalize(spaceSeparated(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
