@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php" />
     <mask>*.js,*.twig,*.html</mask>
     <mask>*.js,*.twig,*.html,*.scss,*.css</mask>
     <mask>*.js,*.ts,*.twig,*.html,*.scss,*.css</mask>
