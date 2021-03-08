@@ -11,11 +11,34 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="assetrand" value="craft.assets.folderId($FOLDER_ID$).filename('*.$EXTENSION$').orderBy('RAND()').one()" description="Random Craft Asset" toReformat="false" toShortenFQNames="true">
+  <template name="assetrand" value="craft.assets.folderId($FOLDER_ID$).filename('*.$EXTENSION$').orderBy('RAND()').one()$END$" description="Random Craft Asset" toReformat="false" toShortenFQNames="true">
     <variable name="FOLDER_ID" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />
-    <variable name="EXTENSION" expression="&quot;.jpg&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXTENSION" expression="&quot;jpg&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="Twig" value="true" />
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="ELIXIR_CODE" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="inc" value="{% include '_partials/$NAME$' $END$%}&#10;" description="Twig include" toReformat="false" toShortenFQNames="true">
@@ -69,6 +92,37 @@
     <variable name="TEXT" expression="capitalize(spaceSeparated(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="entries" value="craft.entries.section($SECTION$)$OTHER$$ALL$$END$" description="Craft entries" toReformat="false" toShortenFQNames="true">
+    <variable name="SECTION" expression="&quot;'section'&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="OTHER" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="ALL" expression="&quot;.all()&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="ELIXIR_CODE" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
 </templateSet>
