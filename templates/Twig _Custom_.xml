@@ -153,4 +153,10 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="block" value="{% block $NAME$ %}$END${% endblock %}" description="Twig block" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="&quot;foo&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
