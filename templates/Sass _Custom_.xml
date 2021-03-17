@@ -61,9 +61,10 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="modclass" value=".$NAME$--$MODIFIER$ {&#10;  $END$&#10;}" description="SCSS modifier class" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
-    <variable name="MODIFIER" expression="&quot;foo&quot;" defaultValue="foo" alwaysStopAt="true" />
+  <template name="modclass" value="// ---------------------------------------------------------------&#10;// Modifier - $TITLE$&#10;// ---------------------------------------------------------------&#10;&#10;.$NAME$--$MODIFIER$ {&#10;  $END$&#10;}" description="SCSS modifier class" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="&quot;Description&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="groovyScript(&quot;return _1.substring(1);&quot;, lowercaseAndDash(fileNameWithoutExtension()));" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODIFIER" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
     </context>
