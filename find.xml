@@ -12,6 +12,7 @@
     <mask>*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css</mask>
     <mask>*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg</mask>
     <mask>*.js</mask>
+    <mask>*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php,!vendor/**/*</mask>
     <mask>*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php</mask>
   </component>
 </application>
