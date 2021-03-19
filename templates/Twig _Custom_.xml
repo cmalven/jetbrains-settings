@@ -159,4 +159,10 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="classmodmac" value="{% import '_macros/class-modifiers' as classModifiers %}&#10;&lt;div class=&quot;{{ classModifiers.set('$NAME$', modifiers ?? []) }}&quot;&gt;" description="Twig class modifiers macro" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
