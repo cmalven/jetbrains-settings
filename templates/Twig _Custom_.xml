@@ -210,7 +210,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="blockpartial" value="{% include '_partials/block' with {&#10;    handle: '$HANDLE$',&#10;    entry: entry,&#10;    block: {&#10;      $END$&#10;    },&#10;} only %}&#10;" description="Twig block partial" toReformat="false" toShortenFQNames="true">
+  <template name="blockpartial" value="{% include '_partials/block' with {&#10;  handle: '$HANDLE$',&#10;  entry: entry,&#10;  block: {&#10;    $END$&#10;  },&#10;} only %}" description="Twig block partial" toReformat="false" toShortenFQNames="true">
     <variable name="HANDLE" expression="&quot;foo&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
