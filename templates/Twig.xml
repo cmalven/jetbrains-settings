@@ -6,7 +6,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="if" value="{% if $CONDITION$ %}&#10;    $END$&#10;{% endif %}" description="if...endif" toReformat="true" toShortenFQNames="false">
+  <template name="if" value="{% if $CONDITION$ %}$END${% endif %}" description="if...endif" toReformat="true" toShortenFQNames="false">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
