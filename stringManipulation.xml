@@ -14,10 +14,5 @@
         </ColumnAlignerModel>
       </list>
     </option>
-    <option name="sortSettings">
-      <SortSettings>
-        <option name="sortType" value="CASE_SENSITIVE_A_Z" />
-      </SortSettings>
-    </option>
   </component>
 </application>
