@@ -5,6 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php" />
     <mask>*.js,*.twig,*.html</mask>
     <mask>*.js,*.twig,*.html,*.scss,*.css</mask>
     <mask>*.js,*.ts,*.twig,*.html,*.scss,*.css</mask>
