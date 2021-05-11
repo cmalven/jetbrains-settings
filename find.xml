@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Default Changelist" />
-    <option name="defaultScopeName" value="Default Changelist" />
-    <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="customScope" value="Featured Resources mobile differentiation" />
+    <option name="defaultScopeName" value="Featured Resources mobile differentiation" />
+    <option name="SEARCH_SCOPE" value="Featured Resources mobile differentiation" />
     <option name="FILE_MASK" value="*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php" />
     <mask>*.js,*.twig,*.html</mask>
     <mask>*.js,*.twig,*.html,*.scss,*.css</mask>
