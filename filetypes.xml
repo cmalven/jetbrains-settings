@@ -16,6 +16,7 @@
       <mapping ext="pull" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
+      <mapping ext="svete" type="Svelte" />
       <mapping ext="html" type="Twig" />
       <mapping ext="njk" type="Twig" />
       <removed_mapping ext="html" approved="true" type="HTML" />
