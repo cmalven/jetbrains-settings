@@ -99,4 +99,11 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="flv" value="$PROP$: var(--fluid-size-$VAL$);" description="Fluid Variable" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP" expression="&quot;margin-top&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="&quot;32&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
