@@ -37,6 +37,8 @@
       <option name="REQUEST" value="false" />
       <option name="SHELL_SCRIPT" value="false" />
       <option name="SQL" value="false" />
+      <option name="SVELTE_HTML" value="false" />
+      <option name="SVELTE_HTML_TEXT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="XML" value="false" />
     </context>
@@ -94,6 +96,8 @@
       <option name="REQUEST" value="false" />
       <option name="SHELL_SCRIPT" value="false" />
       <option name="SQL" value="false" />
+      <option name="SVELTE_HTML" value="false" />
+      <option name="SVELTE_HTML_TEXT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="XML" value="false" />
     </context>
@@ -144,6 +148,8 @@
       <option name="REQUEST" value="false" />
       <option name="SHELL_SCRIPT" value="false" />
       <option name="SQL" value="false" />
+      <option name="SVELTE_HTML" value="false" />
+      <option name="SVELTE_HTML_TEXT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="XML" value="false" />
     </context>
@@ -172,6 +178,8 @@
       <option name="REQUEST" value="false" />
       <option name="SHELL_SCRIPT" value="false" />
       <option name="SQL" value="false" />
+      <option name="SVELTE_HTML" value="false" />
+      <option name="SVELTE_HTML_TEXT" value="false" />
       <option name="TypeScript" value="false" />
       <option name="XML" value="false" />
     </context>
