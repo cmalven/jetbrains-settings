@@ -5,7 +5,7 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
-    <option name="FILE_MASK" value="*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php" />
+    <option name="FILE_MASK" value="*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php,*.glsl" />
     <mask>*.js,*.twig,*.html</mask>
     <mask>*.js,*.twig,*.html,*.scss,*.css</mask>
     <mask>*.js,*.ts,*.twig,*.html,*.scss,*.css</mask>
@@ -14,5 +14,6 @@
     <mask>*.js</mask>
     <mask>*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php,!vendor/**/*</mask>
     <mask>*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php</mask>
+    <mask>*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php,*.glsl</mask>
   </component>
 </application>
