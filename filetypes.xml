@@ -15,13 +15,12 @@
       <mapping ext="pull" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
-      <mapping ext="html" type="Twig" />
-      <mapping ext="njk" type="Twig" />
       <removed_mapping ext="html" approved="true" type="HTML" />
       <removed_mapping pattern="*.html.eex" approved="true" type="HTML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping pattern=".njk" approved="true" type="Twig" />
       <mapping pattern="*.html.eex" type="EEx" />
+      <mapping ext="njk" type="Twig" />
     </extensionMap>
   </component>
 </application>
