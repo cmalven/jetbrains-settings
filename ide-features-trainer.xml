@@ -5,9 +5,6 @@
       <entry name="Projects" expanded="true" />
     </expandedByName>
   </component>
-  <component name="LangManager">
-    <option name="languageName" value="JAVA" />
-  </component>
   <component name="LearnProjectState">
     <option name="firstTimeOpenedWay" value="LEARN_IDE" />
   </component>
@@ -41,13 +38,13 @@
         <entry key="java.occurrences.lesson" value="NOT_PASSED" />
         <entry key="java.refactoring.menu" value="NOT_PASSED" />
         <entry key="java.run.configuration" value="NOT_PASSED" />
-        <entry key="move" value="NOT_PASSED" />
+        <entry key="move" value="PASSED" />
         <entry key="multiple selections" value="NOT_PASSED" />
         <entry key="navigation.declaration/implementation" value="NOT_PASSED" />
         <entry key="navigation.filestructure" value="NOT_PASSED" />
         <entry key="navigation.jumptosource" value="NOT_PASSED" />
         <entry key="navigation.next/previousoccurrences" value="NOT_PASSED" />
-        <entry key="postfix completion" value="NOT_PASSED" />
+        <entry key="postfix completion" value="PASSED" />
         <entry key="recent files and locations" value="NOT_PASSED" />
         <entry key="refactorings.extractmethod" value="NOT_PASSED" />
         <entry key="refactorings.extractvariable/field" value="NOT_PASSED" />
@@ -55,8 +52,8 @@
         <entry key="refactorings.rename" value="NOT_PASSED" />
         <entry key="search everywhere" value="NOT_PASSED" />
         <entry key="select" value="NOT_PASSED" />
-        <entry key="smart type completion" value="NOT_PASSED" />
-        <entry key="statement completion" value="NOT_PASSED" />
+        <entry key="smart type completion" value="PASSED" />
+        <entry key="statement completion" value="PASSED" />
         <entry key="surround and unwrap" value="NOT_PASSED" />
       </map>
     </option>
