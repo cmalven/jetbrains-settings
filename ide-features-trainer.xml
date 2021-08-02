@@ -10,10 +10,10 @@
       <map>
         <entry key="actions" value="NOT_PASSED" />
         <entry key="basic completion" value="NOT_PASSED" />
-        <entry key="codeassistance.codeformatting" value="NOT_PASSED" />
+        <entry key="codeassistance.codeformatting" value="PASSED" />
         <entry key="codeassistance.editorcodingassistance" value="NOT_PASSED" />
-        <entry key="codeassistance.parameterinfo" value="NOT_PASSED" />
-        <entry key="codeassistance.quickpopups" value="NOT_PASSED" />
+        <entry key="codeassistance.parameterinfo" value="PASSED" />
+        <entry key="codeassistance.quickpopups" value="PASSED" />
         <entry key="collapse" value="NOT_PASSED" />
         <entry key="comment line" value="NOT_PASSED" />
         <entry key="completion with tab" value="NOT_PASSED" />
