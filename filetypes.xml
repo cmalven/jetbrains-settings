@@ -4,11 +4,12 @@
       <mapping pattern="gitkeep" type="AUTO_DETECTED" />
       <mapping ext="deploy" type="AUTO_DETECTED" />
       <mapping pattern="*.glsl.js" type="GLSL shader file" />
+      <mapping ext="html" type="HTML" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern=".pretterignore" type="PLAIN_TEXT" />
       <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
+      <mapping pattern=".pretterignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".docfile" type="PLAIN_TEXT" />
       <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
@@ -16,7 +17,6 @@
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
       <mapping ext="njk" type="Twig" />
-      <removed_mapping ext="html" approved="true" type="HTML" />
       <removed_mapping pattern="*.html.eex" approved="true" type="HTML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping pattern=".njk" approved="true" type="Twig" />
