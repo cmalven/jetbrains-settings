@@ -1,5 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
     <file url="file://$USER_HOME$/Code/active-campaign-platform/index.html" value="HTML" />
+    <file url="file://$USER_HOME$/Code/malven-co-2017/templates/_macros/image.html" value="Twig" />
   </component>
 </application>
