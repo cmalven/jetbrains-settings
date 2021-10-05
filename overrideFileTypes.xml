@@ -1,6 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
     <file url="file://$USER_HOME$/Code/active-campaign-platform/index.html" value="HTML" />
-    <file url="file://$USER_HOME$/Code/malven-co-2017/templates/_macros/image.html" value="Twig" />
+    <file url="file://$USER_HOME$/Code/malven-co/src/scripts/shaders/homeHeroBgPlane.frag.gsl" value="GLSL shader file" />
   </component>
 </application>
