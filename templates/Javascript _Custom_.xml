@@ -44,4 +44,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="logg" value="console.log('$VAL$', $VAL$$END$);" description="Console log with name" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="&quot;value&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
