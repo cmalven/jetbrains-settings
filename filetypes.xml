@@ -16,6 +16,7 @@
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="gsl" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
+      <mapping ext="plantuml" type="PlantUML file" />
       <mapping ext="njk" type="Twig" />
       <removed_mapping pattern="*.html.eex" approved="true" type="HTML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
