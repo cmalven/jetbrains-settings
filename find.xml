@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'vite-animation-boilerplate'" />
-    <option name="defaultScopeName" value="Project 'vite-animation-boilerplate'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'vite-animation-boilerplate'" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*.js,*.ts,*.svelte,*.twig,*.html,*.scss,*.css,*.svg,*.php,*.glsl,*.md" />
     <mask>*.js,*.twig,*.html</mask>
     <mask>*.js,*.twig,*.html,*.scss,*.css</mask>
