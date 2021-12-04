@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="gitkeep" type="AUTO_DETECTED" />
       <mapping ext="deploy" type="AUTO_DETECTED" />
-      <mapping pattern="*.glsl.js" type="GLSL shader file" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
@@ -16,12 +15,15 @@
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="gsl" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
-      <mapping ext="plantuml" type="PlantUML file" />
-      <mapping ext="njk" type="Twig" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping pattern="*.html.eex" approved="true" type="HTML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping pattern=".njk" approved="true" type="Twig" />
+      <mapping pattern="*.glsl.js" type="GLSL shader file" />
       <mapping pattern="*.html.eex" type="EEx" />
+      <mapping ext="njk" type="Twig" />
+      <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
   </component>
 </application>
