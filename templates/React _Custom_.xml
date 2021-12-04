@@ -1,0 +1,8 @@
+<templateSet group="React (Custom)">
+  <template name="reactcomp" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;import styles from 'modules/$NAME$.module.scss';&#10;&#10;/**&#10; * $END$&#10; */&#10;const $NAME$ = ({&#10;  ...props&#10;}) =&gt; {&#10;  return (&#10;    &lt;div className={styles.main}&gt;&#10;      My Component&#10;    &lt;/div&gt;&#10;  );&#10;};&#10;&#10;$NAME$.propTypes = {};&#10;&#10;export default $NAME$;" description="Simple boilerplate React component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

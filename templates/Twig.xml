@@ -1,0 +1,19 @@
+<templateSet group="Twig">
+  <template name="set" value="{% set $NAME$ = $VAL$ %}&#10;" description="Set twig variable" toReformat="true" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="foo" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="''" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="if" value="{% if $CONDITION$ %}$END${% endif %}" description="if...endif" toReformat="true" toShortenFQNames="false">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="inc" value="{% include '$TEMPLATE$'$END$ %}" description="include 'template'" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

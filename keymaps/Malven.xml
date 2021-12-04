@@ -1,0 +1,82 @@
+<keymap version="1" name="Malven" parent="Sublime Text (Mac OS X)">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
+  <action id="ChangesView.Move" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="meta alt subtract" />
+    <keyboard-shortcut first-keystroke="meta alt minus" />
+    <keyboard-shortcut first-keystroke="shift meta o" second-keystroke="c" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
+  <action id="ExpandAllToLevel">
+    <keyboard-shortcut first-keystroke="shift meta o" second-keystroke="l" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="meta alt add" />
+    <keyboard-shortcut first-keystroke="meta alt equals" />
+    <keyboard-shortcut first-keystroke="shift meta o" second-keystroke="o" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
+  </action>
+  <action id="HelloProjectAction">
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="HelloWorldAction">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
+  <action id="Macro.BEM selectors to declarations">
+    <keyboard-shortcut first-keystroke="shift meta m" second-keystroke="c" />
+  </action>
+  <action id="Macro.Create GUI Setting">
+    <keyboard-shortcut first-keystroke="shift meta m" second-keystroke="g" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="space" />
+  </action>
+  <action id="NewJavaScriptFile">
+    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="j" />
+  </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="s" />
+  </action>
+  <action id="NewStylesheetFile">
+    <keyboard-shortcut first-keystroke="shift meta n" second-keystroke="c" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="Rerun" />
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="RunAnything">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="RunTargetAction" />
+  <action id="UsageGrouping.UsageType" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="shift ctrl alt v" />
+  </action>
+  <action id="com.sburlyaev.cmd.plugin.actions.OpenTerminal">
+    <keyboard-shortcut first-keystroke="shift ctrl alt o" />
+  </action>
+</keymap>

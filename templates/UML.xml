@@ -1,0 +1,7 @@
+<templateSet group="UML">
+  <template name="uml" value="@startuml&#10;|client|&#10;start&#10;&#10;:start the process;&#10;-&gt; You can put text on arrows;&#10;&#10;if (ready to proceed?) then (yes)&#10;  :prepare to start;&#10;else (no)&#10;  :wait __5 seconds__;&#10;  detach;&#10;endif&#10;:send data;&#10;&#10;|server|&#10;repeat&#10;  :read data;&#10;  floating note left: This is a note&#10;  :process **chunk**;&#10;repeat while (more data?)&#10;&#10;:send data;&#10;&#10;|client|&#10;while (receiving data)&#10;  :read data;&#10;  :combine data;&#10;  note right&#10;    This note is on several&#10;    //lines// and can&#10;    contain &lt;b&gt;HTML&lt;/b&gt;&#10;    ====&#10;    * Never forget this&#10;  end note&#10;endwhile&#10;&#10; fork&#10;    :decrypt;&#10;  fork again&#10;    :remove profanity;&#10;  end fork&#10;&#10;end&#10;@enduml" description="UML Boilerplate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

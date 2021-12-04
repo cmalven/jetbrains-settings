@@ -1,0 +1,116 @@
+<templateSet group="Sass (Custom)">
+  <template name="mq" value="@include mq($BREAKPOINT$) {&#10;  $END$&#10;}" description="sass-mq query" toReformat="false" toShortenFQNames="true">
+    <variable name="BREAKPOINT" expression="enum(&quot;medium&quot;, &quot;large&quot;, &quot;xlarge&quot;, &quot;full&quot;, &quot;max&quot;) " defaultValue="medium" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mqu" value="@include mq($until: $BREAKPOINT$) {&#10;  $END$&#10;}" description="sass-mq until query" toReformat="false" toShortenFQNames="true">
+    <variable name="BREAKPOINT" expression="enum(&quot;medium&quot;, &quot;large&quot;, &quot;xlarge&quot;, &quot;full&quot;, &quot;max&quot;) " defaultValue="medium" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="c2" value="// ---------------------------------------------------------------&#10;// $CONTENT$&#10;// ---------------------------------------------------------------&#10;&#10;$END$&#10;" description="Sass Comment (Level 2)" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="Comment Content" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fls" value="@include fluid-size($SIZE$, $PROPS$);" description="Fluid Size" toReformat="false" toShortenFQNames="true">
+    <variable name="SIZE" expression="&quot;m&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPS" expression="&quot;margin-top&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="fluid" value="@include fluid(&#10;  $PROPS$,&#10;  $START$,&#10;  $STOP$,&#10;  $MIN$px,&#10;  $MAX$px&#10;);" description="Fluid" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPS" expression="&quot;font-size&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="START" expression="&quot;default&quot;" defaultValue="default" alwaysStopAt="true" />
+    <variable name="STOP" expression="&quot;max&quot;" defaultValue="max" alwaysStopAt="true" />
+    <variable name="MIN" expression="&quot;20&quot;" defaultValue="50" alwaysStopAt="true" />
+    <variable name="MAX" expression="&quot;100&quot;" defaultValue="100" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="anim" value="animation-name: $NAME$;&#10;animation-duration: $DURATION$s;&#10;animation-timing-function: ease;&#10;animation-delay: 0s;&#10;animation-iteration-count: infinite;" description="CSS animation" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="&quot;my-animation&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="DURATION" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="gridresp" value="display: grid;&#10;grid-template-columns: repeat(auto-fit, minmax($MINMAX$, 1fr));&#10;grid-gap: $GRIDGAP$;&#10;" description="Responsive CSS Grid" toReformat="false" toShortenFQNames="true">
+    <variable name="MINMAX" expression="&quot;200px&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="GRIDGAP" expression="&quot;30px&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ts" value="@include type-style($STYLE$);" description="Sass Toolkit Type Style Mixin" toReformat="false" toShortenFQNames="true">
+    <variable name="STYLE" expression="&quot;body-1&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="for" value="@for $idx from 1 through $COUNT$ {&#10;  &amp;:nth-child(#{$idx}) {&#10;    transition-delay: $idx * 0.1s;&#10;  }&#10;}&#10;" description="Sass for loop" toReformat="false" toShortenFQNames="true">
+    <variable name="COUNT" expression="&quot;10&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="modclass" value="// ---------------------------------------------------------------&#10;// Modifier - $TITLE$&#10;// ---------------------------------------------------------------&#10;&#10;.$NAME$--$MODIFIER$ {&#10;  $END$&#10;}" description="SCSS modifier class" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="&quot;Description&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="groovyScript(&quot;return _1.substring(1);&quot;, lowercaseAndDash(fileNameWithoutExtension()));" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODIFIER" expression="lowercaseAndDash(TITLE)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="var" value="var(--$VAR_NAME$);" description="CSS Custom Property (Variable)" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_NAME" expression="&quot;foo&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="ELIXIR_CODE" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="flv" value="$PROP$: var(--fluid-size-$VAL$);" description="Fluid Variable" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP" expression="&quot;margin-top&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="&quot;32&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mqm" value="@include media('$DIR$$BREAKPOINT$') {&#10;  $END$&#10;}" description="include-media query" toReformat="false" toShortenFQNames="true">
+    <variable name="DIR" expression="&quot;&gt;=&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="BREAKPOINT" expression="&quot;medium&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

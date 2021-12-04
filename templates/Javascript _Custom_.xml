@@ -1,0 +1,54 @@
+<templateSet group="Javascript (Custom)">
+  <template name="func" value="const $NAME$ = ($PARAMS$) =&gt; {&#10;    $END$&#10;};" description="Arrow Function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="&quot;myFunction&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="class" value="/**&#10; * $END$&#10; *&#10; * @class    $NAME$&#10; * @param    {Object}  options  Options for the object&#10; * @return   {Object}  The object&#10; */&#10;const $NAME$ = function(options = {}) {&#10;  //&#10;  //   Public Vars&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  let self = Object.assign({}, {&#10;    el: null,&#10;  }, options);&#10;&#10;&#10;  //&#10;  //   Private Vars&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  let foo = null;&#10;&#10;&#10;  //&#10;  //   Private Methods&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  const _init = () =&gt; {&#10;    _addEventListeners();&#10;  };&#10;&#10;  const _addEventListeners = () =&gt; {&#10;&#10;  };&#10;&#10;&#10;  //&#10;  //   Public Methods&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  /*&#10;  self.foo = () =&gt; {&#10;&#10;  };&#10;  */&#10;&#10;&#10;  //&#10;  //   Initialize&#10;  //&#10;  //////////////////////////////////////////////////////////////////////&#10;&#10;  _init();&#10;&#10;  // Return the Object&#10;  return self;&#10;};&#10;&#10;export default $NAME$;&#10;" description="Javascript class (not ES next)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="docc" value="/** $END$ */" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="c1" value="//&#10;//   $TEXT$&#10;//&#10;//////////////////////////////////////////////////////////////////////&#10;&#10;$END$" description="Javascript Comment (Level 1)" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="c2" value="//&#10;// $TEXT$&#10;//&#10;&#10;$END$" description="Javascript Comment (Level 2)" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dynamicimp" value="import(/* webpackChunkName: &quot;$MODULE_NAME$&quot; */ '$MODULE_NAME$').then(({ default: $DEFAULT$ }) =&gt; {&#10;}).catch(error =&gt; 'An error occurred while loading the $MODULE_NAME$ module');" description="Dynamic module import" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE_NAME" expression="&quot;three&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="&quot;THREE&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cm" value="$NAME$ = ($PARAMS$) =&gt; {&#10;  $END$&#10;}" description="Javascript class method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="&quot;myMethod&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="logg" value="console.log('$VAL$', $VAL$$END$);" description="Console log with name" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="&quot;value&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
